@@ -1,0 +1,10 @@
+<?php
+	//配置文件
+	header('Content-type:text/html;charset=utf-8');
+	//define是全局定义的，外部不需要引入这个文件
+	define('DB_HOST','localhost');
+	define('DB_USER','root');
+	define('DB_PASSWORD','root');
+	define('DB_DATABASE','sfkbbs');
+	define('DB_PORT',3306);
+?>
